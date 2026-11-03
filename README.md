@@ -2,9 +2,12 @@ JavaScript Practice & Projects
 
 A collection of JavaScript programs and mini projects developed using HTML, CSS, and JavaScript. This repository documents my practical learning, coding experiments, and progress in frontend development.
 
+
+
 Overview
 
 This repository is dedicated to building a strong foundation in JavaScript through hands-on practice. It includes basic programming concepts, interactive web elements, DOM manipulation, and small frontend projects.
+
 
 Tech Stack
 
@@ -13,6 +16,8 @@ HTML5 – Structure and content
 CSS3 – Styling and layouts
 
 JavaScript (ES6+) – Logic and interactivity
+
+
 
 Repository Contents
 
@@ -48,6 +53,7 @@ Mini Projects
 
 Small practical applications
 
+
 Getting Started
 
 To explore and run these programs locally:
@@ -62,6 +68,7 @@ Open the desired HTML file in your browser.
 
 Explore the code and experiment with it.
 
+
 Learning Objectives
 
 Strengthen JavaScript fundamentals.
@@ -73,6 +80,7 @@ Understand DOM manipulation and browser events.
 Build interactive web applications.
 
 Gain practical frontend development experience.
+
 
 About
 
