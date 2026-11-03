@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess My Number!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="game-container">
+
+            <h1>Guess My Number!</h1>
+            <p class="subtitle">(Between 1 and 10)</p>
+
+            <!-- Secret Number Box -->
+            <div id="number-box" class="number">?</div>
+
+            <div class="input-section">
+                <!-- User Input -->
+                <input type="number" id="guess-input" placeholder="Enter number"
+                    min="1" max="20">
+
+                <!-- Check Button -->
+                <button id="check-btn">Check!</button>
+            </div>
+
+            <div class="status-section">
+                <!-- Message Output (Too High, Too Low, Correct, etc.) -->
+                <p id="message">Start guessing...</p>
+
+                <!-- Score Display -->
+                <p>Score: <span id="score">10</span></p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
