@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Message Box</h1>
+        <p>Write something and display your message.</p>
+
+        <input type="text" id="userInput" placeholder="Enter your message">
+
+        <div class="buttons">
+            <button id="showBtn">Show Message</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+
+        <div class="output">
+            <h3>Your Message:</h3>
+            <p id="message">Your message will appear here...</p>
+        </div>
+
+    </div>
+
+    <script >
+        let show=document.querySelector("#showBtn");
+        let mass_box=document.querySelector(".output");
+        let mass=document.querySelector("#userInput");
+        
+        let massage=document.createElement("h3")
+        
+        show.addEventListener("click",function(){
+            document.querySelector("#message").textContent=mass.value
+            mass.value=""
+
+            
+        })
+        let clear=document.querySelector("#clearBtn");
+        clear.addEventListener("click",function(){
+            mass.innerText=""
+            document.querySelector("#message").textContent=""
+            mass.value=""
+        })
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9ecf5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 380px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #252b48;
+}
+
+.container p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #6258e8;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #6258e8;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #483ed0;
+}
+
+#clearBtn {
+    background: #e74c3c;
+}
+
+#clearBtn:hover {
+    background: #c0392b;
+}
+
+.output {
+    margin-top: 25px;
+    padding: 15px;
+    background: #f3f3fa;
+    border-radius: 8px;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.output h3 {
+    margin-bottom: 10px;
+    color: #252b48;
+}
+
+#message {
+    color: #555;
+    margin: 0;
+}
